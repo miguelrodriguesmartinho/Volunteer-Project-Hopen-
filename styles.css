@@ -1,0 +1,125 @@
+.jumbotron-heading {
+  font-size: 150px;
+  margin-bottom: 70px;
+}
+
+@media only screen and (max-width: 768px) {
+  .jumbotron-heading {
+    margin-bottom: 30px;
+    font-size: 50px;
+  }
+}
+
+.jumbotron {
+  max-width: 1200px;
+  margin: 0px auto;
+  overflow: auto;
+  min-height: 300px;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.main-foto-description {
+  display: flex;
+  justify-content: end;
+  font-size: 16px;
+  padding-right: 10px;
+}
+
+.card-text {
+  font-size: 20px;
+}
+
+.missions-title {
+  font-size: 2.5rem;
+  outline: 2px solid #6c757d;
+}
+
+.logo-image {
+  max-height: 500px;
+  margin: 50px auto;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .logo-image {
+    max-height: 250px;
+    margin: 25px auto;
+  }
+}
+
+
+.text-muted {
+  margin-bottom: 50px;
+}
+
+.mission-title {
+  font-size: 6rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: rgb(0 91 187 / 60%);
+}
+
+@media only screen and (max-width: 768px) {
+  .mission-title {
+    font-size: 4rem;
+  }
+}
+
+
+.ukrain-mission {
+  background-image: url(fotos/mission-background-image.jpeg);
+  background-repeat: no-repeat;
+  background-position: top;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 50px;
+  min-height: 800px;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.yellow {
+  color: rgb(193 164 20 / 44%);
+}
+
+.background-white{
+ background-color: whitesmoke;;
+}
+
+.border-top-whitesmoke {
+  border-top: 2px solid whitesmoke;
+}
+
+
+
+.ukrain-mission span {
+  color: whitesmoke;
+  border-radius: 5px;
+  font-size: 28px;
+  font-weight: 300;
+  padding: 15px 25px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .ukrain-mission span {
+    font-weight: 400;
+    font-size: 18px;
+    padding: 5px 15px;
+  }
+}
+.ukrain-mission .span-header-style{
+  font-size: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .ukrain-mission .span-header-style{
+    font-size: 30px;
+  }
+}
+
+
+.footer i {
+  font-size: 25px;
+}
